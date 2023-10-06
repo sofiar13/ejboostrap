@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary" id="navegador">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" style="margin-right: 70px ;" href="#">LOREM IPSUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- Elementos que se mostrarán primero en pantallas pequeñas y medianas -->
+            <form class="d-flex me-auto d-lg-none" role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item order-2 order-lg-1 " style="margin-right: 70px ;">
+                <a class="nav-link active text-white" aria-current="page" href="#">Dolor</a>
+              </li>
+              <li class="nav-item order-3 order-lg-2" style="margin-right: 70px ;">
+                <a class="nav-link text-white opacity-50">Sit</a>
+              </li>
+              <li class="nav-item order-4 order-lg-3">
+                <a class="nav-link text-white opacity-50" aria-disabled="true">Amet</a>
+              </li>
+              <li class="nav-item order-4 order-lg-4 d-lg-none">
+                <a id="opcionesEnlace" class="nav-link active text-white opacity-50" href="#">Opciones</a>
+              </li>
+            </ul>
+            <!-- Elemento que se mostrará después en pantallas pequeñas y medianas -->
+            <form class="d-none d-lg-flex me-2" role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+       <div class="row">
+            <div class="col-12 mb-1 d-lg-none" id="opcionesLista" style="display: none;">
+              <ul class="list-group">
+                <li class="list-group-item"><a href="#" class="text-dark">Opción 1</a></li>
+                <li class="list-group-item"><a href="#" class="text-dark">Opción 2</a></li>
+                <li class="list-group-item"><a href="#" class="text-dark">Opción 3</a></li>
+                <li class="list-group-item"><a href="#" class="text-dark">Opción 4</a></li>
+              </ul>
+            </div>
+        </div>
+      <div class="container">
+        <div class="row">
+            <h3 class="text-center pt-5">Lorem ipsum...</h3>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner text-center pb-5">
+                      <div class="carousel-item active " data-bs-interval="2000">
+                        <h4 class="d-block w-100">...se usa habitualmente en diseño gráfico en</h4>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <h4 class="d-block w-100">...aunque no es aleatorio, sino que deriva de un texto</h4>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <h4 class="d-block w-100">...editores de texto proveen la funcionalidad</h4>
+                      </div>
+                    </div>
+            </div>
+        </div>
+
+       
+
+        <div class="row">
+            <div class="col-lg-3 mb-1 d-none d-lg-block">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#" class="text-dark">Opción 1</a></li>
+                    <li class="list-group-item"><a href="#" class="text-dark">Opción 2</a></li>
+                    <li class="list-group-item"><a href="#" class="text-dark">Opción 3</a></li>
+                    <li class="list-group-item"><a href="#" class="text-dark">Opción 4</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+             <p class="bg-light">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+                Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo xvi.1​ 
+                Su uso en algunos editores de texto muy conocidos en la actualidad ha dado al texto lorem ipsum nueva popularidad.</p>   
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="bg-light">
+                    El texto en sí no tiene sentido aparente, aunque no es aleatorio, sino que deriva de un texto de Cicerón en lengua latina, a cuyas palabras se les han eliminado sílabas o letras. El significado del mismo no tiene importancia, ya que solo es una demostración o prueba. El texto procede de la obra 
+                    De finibus bonorum et malorum (Sobre los límites del bien y del mal) que comienza con:
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <p class="bg-light">Existen múltiples variantes del texto original, algunas casi sin parecido con él. Estas versiones incluyen letras adicionales que no son comunes en latín (como la k, w y z) o palabras sin sentido como zzril,
+                     takimata y gubeergren que intentan hacer la distribución aún más parecida al inglés.
+                    Varios editores de texto proveen la funcionalidad de generación de lorem ipsum.</p>
+            </div> 
+        </div>
+      </div>
+      
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
